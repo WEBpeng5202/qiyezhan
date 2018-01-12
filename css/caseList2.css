@@ -1,0 +1,40 @@
+img{
+    width: auto;
+}
+
+
+
+
+
+
+.showItemWrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.imgBox{
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+.imgBox img{
+    transition: all 1s;
+}
+.imgBox:hover img{
+    transform: scale(1.1);
+}
+.showT{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed #ac2925;
+    padding-bottom: 10px;
+}
+.showT img{
+    width: auto;
+    height: auto;
+}
+.showItem{
+    padding: 0 8px;
+}

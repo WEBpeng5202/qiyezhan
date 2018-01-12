@@ -1,0 +1,71 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: url("../img/body_bg.jpg") repeat-y;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.space90{
+    width: 100%;
+    height: 90px;
+}
+main{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    z-index: 99;
+    border: 1px solid #02002e;
+    padding: 20px;
+    box-sizing: border-box;
+}
+main>section{
+    border: 1px solid #2b2b2b;
+    color: #080808;
+}
+.text>h1{
+    width: 100%;
+}
+.text>p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    line-height: 32px;
+    text-indent: 2em;
+}
+
+footer{
+    margin: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    overflow: hidden;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}

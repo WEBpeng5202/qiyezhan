@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们的故事</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_519538_xuvrzwka6cx47vi.css">
+    <link rel="stylesheet" href="css/public.css">
+    <!--<link rel="stylesheet" href="css/caseList.css">-->
+    <!--<link rel="stylesheet" href="css/about.css">-->
+    <link rel="stylesheet" href="css/tell.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html" title="用心定制">MINIDARK</a>
+        </div>
+        <div class="breadKey">
+            <i class="iconfont bread" title="点击我">&#xe608;</i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="caseList.html">简约情调</a></li>
+                <li><a href="caseList2.html">定制家的美</a></li>
+                <li><a href="about-ctm.html">关于定制</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="tell.html" style="color: #e2fe02">联系我们</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+<div class="space90">
+
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/06.png" alt="">
+            <div class="input">
+                <p>您可以在这里预约设计!</p>
+                <!--<div style="background: url('img/bm_tit.jpg');width: 70%;height: 30px;margin: 30px auto 30px"></div>-->
+                <input type="text" placeholder="您的姓名" style="background:#fff url('img/icon_bm01.jpg') no-repeat 2px;">
+                <input type="tel" placeholder="留下您的手机号" style="background: #fff url('img/icon_bm02.jpg') no-repeat 2px">
+                <input type="text" placeholder="您的城市">
+                <div>
+                    <button>预约设计</button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <img src="img/06.png" alt="">
+            <div class="input JYi">
+                <p>您可以在这里提交您的建议!</p>
+                <!--<div style="background: url('img/bm_tit.jpg');width: 70%;height: 30px;margin: 30px auto 30px"></div>-->
+                <textarea name="" id="" cols="60" rows="12" placeholder="您可以在这里填写您的宝贵意见!我们会在采纳后送您小礼物哦!(小编偷偷告诉您,大礼包也是很有可能呢!)"></textarea>
+                <div>
+                    <button>提交建议</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+<!--<main>
+    <section class="">
+        <div class="text">
+            <h1>我们的故事</h1>
+            <p>
+                <span style="color: #00fcff;font-size: 20px;line-height: 32px">MINIDARK</span>定制现有员工60余人。 我们涉及到的定制内容包含了家装/工装以及家具。公司凭借高素质的人才队伍，先进的工艺和一流、完善的企业管理，赢得了国内外客户的良好赞誉；依靠科技进步、倡导绿色消费，让消费者充分体会到定制文化所带来的无穷魅力 公司全体员团结奋进、开拓进取，为创建特色鲜明、质量一流的名牌产品而不懈努力。
+            </p>
+        </div>
+    </section>
+</main>-->
+
+<footer>
+    <div class="ft container" >
+        <a href="">MINIDARK</a>
+    </div>
+    <div class="fb container">
+        <div class="fcenter">
+            <a href=""><i class="iconfont">&#xe649;</i></a>
+            <a href=""><i class="iconfont">&#xe652;</i></a>
+            <a href=""><i class="iconfont">&#xe721;</i></a>
+            <a href=""><i class="iconfont">&#xe63e;</i></a>
+            <a href=""><i class="iconfont">&#xe619;</i></a>
+            <a href=""><i class="iconfont">&#xe642;</i></a>
+        </div>
+        <p class="banquan">Copyright © 2017.Company name All rights reserved.</p>
+    </div>
+</footer>
+
+<div class="top">
+    <span>
+        <i class="iconfont" title="返回顶部">&#xe64c;</i>
+    </span>
+</div>
+
+<script src="js/script.js"></script>
+<script>
+    $(function () {
+        let swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+                scrollbar:true
+            },
+            loop : true,
+            autoplay:true,
+            effect : 'cube',
+            cubeEffect: {
+                slideShadows: true,
+                shadow: true,
+                shadowOffset: 100,
+                shadowScale: 0.6
+            },
+        });
+        $('.swiper-container').hover(function(){
+            swiper.autoplay.stop();
+        },function(){
+            swiper.autoplay.start();
+        });
+    })
+</script>
+</body>
+</html>

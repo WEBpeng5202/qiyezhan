@@ -1,0 +1,22 @@
+section{
+    height: auto;
+    position: relative;
+}
+
+.nav_List{
+    position: absolute;
+    bottom: 218px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1010px;
+    height: 120px;
+}
+.nav_List>li{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    float: left;
+}
+.clearBoth{
+    clear: both;
+}

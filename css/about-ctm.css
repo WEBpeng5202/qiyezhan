@@ -1,0 +1,35 @@
+h1{
+    width: 100%;
+    margin: 0 auto;
+}
+p{
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.left,.right,.leftb,.rightb{
+    margin: 40px auto;
+}
+.left,.rightb{
+    width: 60%;
+    height: 384px;
+    float: left;
+}
+.rightb{
+    float: right;
+}
+.right{
+    padding: 15px;
+    width: 35%;
+    float: right;
+}
+.leftb{
+    float: left;
+    width: 35%;
+    padding: 15px;
+
+}
+.swiper-container-horizontal>.swiper-pagination-progressbar{
+    top: auto;
+    bottom: 0;
+}
