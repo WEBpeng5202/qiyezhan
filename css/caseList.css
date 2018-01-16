@@ -1,7 +1,8 @@
 main{
-    /*height:900px;*/
+    width: 100%;
 }
 .banner{
+    width: 100%;
     border-bottom: 2px dashed #8c8c8c;
 }
 .title{
